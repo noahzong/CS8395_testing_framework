@@ -2,7 +2,7 @@
 import openai
 
 # Set up the OpenAI API client with your API key
-openai.api_key = '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'
+openai.api_key = 'YOUR_API_KEY'
 
 def test_execution(description, input, header):
     """ 
