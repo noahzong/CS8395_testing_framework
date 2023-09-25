@@ -1,0 +1,21 @@
+[
+    {
+        "test_name": "Reverse String",
+        "description": "Reverse the given string 'x'.",
+        "sample_header": "def reverse_string(x):",
+        "test_cases": [
+            {"input": "hello", "expected_output": "olleh"},
+            {"input": "world", "expected_output": "dlrow"}
+        ]
+    },
+    {
+        "test_name": "Add Numbers",
+        "description": "Given two numbers separated by a comma, return their sum as 'x+y'.",
+        "sample_header": "def add_numbers(number1, number2):",
+        "test_cases": [
+            {"input": "3,4", "expected_output": "7"},
+            {"input": "5,6", "expected_output": "11"}
+        ]
+    }
+]
+
