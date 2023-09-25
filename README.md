@@ -44,5 +44,5 @@ The script will display the number of passed tests, total tests, and the overall
 If you want to use a different logic or method for test execution, modify the test_execution function in test_execution_with_api.py (or a similar file). This function receives the input data and the problem description and should return the output.
 
 **8. Further Customization:**
-For more intricate test execution logic or different AI models, modify the test runner and the test execution function as needed.
-To add more measures or scoring mechanisms, update the calculate_score function in test_framework.py.
+When using different AI models, modify the test execution function, replacing the call to the OpenAI API with a call to the desired AI model's API.
+
